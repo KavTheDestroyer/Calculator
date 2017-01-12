@@ -21,14 +21,14 @@
 	position: relative;
 	left: 15px;
 	top: 20px;
-	height: 40px;
+	height: 50px;
 }
 
 .display input {
 	position: relative;
 	left: 2px;
 	top: 2px;
-	height: 30px;
+	height: 40px;
 	width: 210px;
 	color: black;
 	background-color: #1DB6AC;
@@ -47,7 +47,7 @@
 	border: none;
 	border-radius: 60px;
 	margin-left: 17px;
-	cursor: pointer;
+	cursor:crosshair;
 	border-top: 2px solid transparent; 
  }
  .button.function {
@@ -64,7 +64,7 @@
  }
  .button.number {
 	 color: white;
-	background-color: #299CEF;
+	background-color: #1EC0D3;
 	border-bottom: black 2px solid;
 	border-top: 2px #6f6f6f solid;	
  }
