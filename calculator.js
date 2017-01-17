@@ -2,8 +2,10 @@
 
 //Change display
 function d(val) {
+	//adding waves in display
+	
 	if(val==''){
-		<img src="http://s3.amazonaws.com/feather-files-aviary-prod-us-east-1/h6x69kt5qn4mwje1/2017-01-12/7ee94255a16a45b18b0748d143686e5c.jpg" alt="Waves">
+		document.getElementById("d").style.backgroundImage = "url('images/wave.jpg')";
 	}
 	
 	document.getElementById("d").value = val;
@@ -12,6 +14,13 @@ function d(val) {
 
 //Type numbers and operators
 function v(val) {
+	if v(val== .button.operator) {
+	document.getElementById("d").style.background-color: teal;
+	
+	if v(val== .button.number) {
+	document.getElementById("d").style.background-color: teal;
+	}
+	
 	document.getElementById("d").value += val;
 }
 
