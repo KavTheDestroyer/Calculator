@@ -2,12 +2,21 @@
 
 //Change display
 function d(val) {
+	//adding waves in display
+	
+	if(val==''){
+		document.getElementById("d").style.backgroundImage = "url('images/wave.jpg')";
+	}
+	
 	document.getElementById("d").value = val;
+
 }
 
 //Type numbers and operators
 function v(val) {
-	document.getElementById("d").value += val;
+	 document.getElementById("d").style.backgroundColor = "teal";
+	 
+	 document.getElementById("d").value += val;
 }
 
 //Evaluate the equation
