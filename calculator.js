@@ -14,14 +14,9 @@ function d(val) {
 
 //Type numbers and operators
 function v(val) {
-	if v(val== .button.operator) {
-	document.getElementById("d").style.background-color: teal;
-	
-	if v(val== .button.number) {
-	document.getElementById("d").style.background-color: teal;
-	}
-	
-	document.getElementById("d").value += val;
+	 document.getElementById("d").style.backgroundColor = "teal";
+	 
+	 document.getElementById("d").value += val;
 }
 
 //Evaluate the equation
