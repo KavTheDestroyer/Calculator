@@ -14,7 +14,7 @@ function d(val) {
 
 //Type numbers and operators
 function v(val) {
-	 document.getElementById("d").style.backgroundColor = "teal";
+	 document.getElementById("d").style.backgroundImage = "";
 	 
 	 document.getElementById("d").value += val;
 }
